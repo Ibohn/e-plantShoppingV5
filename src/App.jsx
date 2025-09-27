@@ -43,6 +43,7 @@ function App() {
                 <div className="feature-card">
                   <h3>Air Purifying Plants</h3>
                   <p>Improve your indoor air quality naturally</p>
+                  <button className="Air Purifying Plants-button" onClick={() => setCurrentPage('products')}>Air Purifying Plants</button>
                 </div>
                 <div className="feature-card">
                   <h3>Aromatic Plants</h3>
@@ -51,6 +52,7 @@ function App() {
                 <div className="feature-card">
                   <h3>Low Maintenance</h3>
                   <p>Perfect for beginners and busy plant lovers</p>
+                  <button className="Low Maintenance-button" onClick={() => setCurrentPage('products')}>Low Maintenance</button>
                 </div>
               </div>
             </div>
